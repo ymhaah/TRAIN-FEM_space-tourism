@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="description" />
+		<meta name="author" content="Yousef Hafnawi" />
+		<meta name="color-scheme" content="light" />
+		<link rel="icon" type="image/png" href="./assets/images/svg/logo.svg" />
+		<title>Space Tourism\Destination</title>
+		<!-- ################ scripts ################ -->
+		<!-- ################ gsap ################ -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+			defer
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
+			defer
+		></script>
+		<!-- ################ fonts (Bellefair) ################ -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- ################ fonts (Barlow Condensed) ################ -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- ################ fonts (Barlow) ################ -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- ################ main style ################ -->
+		<link rel="stylesheet" href="./app/style/main.css" />
+	</head>
+	<body>
+		<a
+			href="#home"
+			class="visually-hidden"
+			title="click Enter to skip navigation menu"
+			>skip to the content</a
+		>
+		<!-- header section starts  -->
+		<header>
+			<div class="header-Container">
+				<div class="Logo">
+					<a href="./index.html"
+						><img src="./assets/images/svg/logo.svg" alt="logo" />
+						<span class="visually-hidden"> my logo </span>
+					</a>
+				</div>
+				<button
+					type="button"
+					aria-controls="main-navigation-list"
+					aria-expanded="false"
+					class="mobile-nav-toggle"
+				>
+					<span class="visually-hidden">Menu</span>
+				</button>
+				<nav class="main-navigation" aria-label="main navigation">
+					<ul date-visible="false" id="main-navigation-list">
+						<li>
+							<a href="./index.html" date-selected="false"
+								><span aria-hidden="true">01</span> Home</a
+							>
+						</li>
+						<li>
+							<a href="./destination.html" date-selected="true"
+								><span aria-hidden="true">02</span>
+								Destination</a
+							>
+						</li>
+						<li>
+							<a href="./Crew.html" date-selected="false"
+								><span aria-hidden="true">03</span> Crew</a
+							>
+						</li>
+						<li>
+							<a href="./Technology.html" date-selected="false"
+								><span aria-hidden="true">04</span>
+								Technology</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="bg-blur"></div>
+		</header>
+		<!-- header section ends -->
+		<main id="home">
+			<!-- home section starts -->
+			<section
+				aria-labelledby="destination-section-title"
+				id="destination-section"
+			>
+				<div class="Container">
+					<div class="destination">
+						<div class="destination-star">
+							<h2 id="destination-section-title" class="">
+								<span>01</span> Pick your destination
+							</h2>
+							<div class="star">
+								<picture class="hero-moon" aria-hidden="false">
+									<source
+										srcset="
+											./assets/images/img/destination/image-moon.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/destination/image-moon.png"
+										alt="the moon"
+									/>
+								</picture>
+								<picture class="hero-mars" aria-hidden="true">
+									<source
+										srcset="
+											./assets/images/img/destination/image-mars.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/destination/image-mars.png"
+										alt="mars"
+									/>
+								</picture>
+								<picture class="hero-europa" aria-hidden="true">
+									<source
+										srcset="
+											./assets/images/img/destination/image-europa.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/destination/image-europa.png"
+										alt="europa"
+									/>
+								</picture>
+								<picture class="hero-titan" aria-hidden="true">
+									<source
+										srcset="
+											./assets/images/img/destination/image-titan.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/destination/image-titan.png"
+										alt="titan"
+									/>
+								</picture>
+							</div>
+						</div>
+						<div class="destination-text">
+							<nav class="destination-nav">
+								<ul>
+									<li>
+										<button
+											class="Button"
+											type="button"
+											date-selected="true"
+											aria-controls="moon-section"
+										>
+											Moon
+										</button>
+									</li>
+									<li>
+										<button
+											class="Button"
+											type="button"
+											date-selected="false"
+											aria-controls="mars-section"
+										>
+											Mars
+										</button>
+									</li>
+									<li>
+										<button
+											class="Button"
+											type="button"
+											date-selected="false"
+											aria-controls="europa-section"
+										>
+											Europa
+										</button>
+									</li>
+									<li>
+										<button
+											class="Button"
+											type="button"
+											date-selected="false"
+											aria-controls="titan-section"
+										>
+											Titan
+										</button>
+									</li>
+								</ul>
+							</nav>
+							<article id="moon-section" aria-hidden="false">
+								<h3>Moon</h3>
+								<p>
+									See our planet as you’ve never seen it
+									before. A perfect relaxing trip away to help
+									regain perspective and come back refreshed.
+									While you’re there, take in some history by
+									visiting the Luna 2 and Apollo 11 landing
+									sites.
+								</p>
+								<div class="info">
+									<div>
+										<h4>Avg. distance</h4>
+										<p>384,400 km</p>
+									</div>
+									<div>
+										<h4>Est. travel time</h4>
+										<p>3 days</p>
+									</div>
+								</div>
+							</article>
+							<article id="mars-section" aria-hidden="true">
+								<h3>Mars</h3>
+								<p>
+									Don’t forget to pack your hiking boots.
+									You’ll need them to tackle Olympus Mons, the
+									tallest planetary mountain in our solar
+									system. It’s two and a half times the size
+									of Everest!
+								</p>
+								<div class="info">
+									<div>
+										<h4>Avg. distance</h4>
+										<p>225 mil. km</p>
+									</div>
+									<div>
+										<h4>Est. travel time</h4>
+										<p>9 months</p>
+									</div>
+								</div>
+							</article>
+							<article id="europa-section" aria-hidden="true">
+								<h3>Europa</h3>
+								<p>
+									The smallest of the four Galilean moons
+									orbiting Jupiter, Europa is a winter lover’s
+									dream. With an icy surface, it’s perfect for
+									a bit of ice skating, curling, hockey, or
+									simple relaxation in your snug wintery
+									cabin.
+								</p>
+								<div class="info">
+									<div>
+										<h4>Avg. distance</h4>
+										<p>628 mil. km</p>
+									</div>
+									<div>
+										<h4>Est. travel time</h4>
+										<p>3 years</p>
+									</div>
+								</div>
+							</article>
+							<article id="titan-section" aria-hidden="true">
+								<h3>Titan</h3>
+								<p>
+									The only moon known to have a dense
+									atmosphere other than Earth, Titan is a home
+									away from home (just a few hundred degrees
+									colder!). As a bonus, you get striking views
+									of the Rings of Saturn.
+								</p>
+								<div class="info">
+									<div>
+										<h4>Avg. distance</h4>
+										<p>1.6 bil. km</p>
+									</div>
+									<div>
+										<h4>Est. travel time</h4>
+										<p>7 years</p>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- home section ends -->
+			<!-- # section starts -->
+		</main>
+		<!-- my scripts -->
+		<script type="module" src="./app/script/main.js"></script>
+	</body>
+</html>

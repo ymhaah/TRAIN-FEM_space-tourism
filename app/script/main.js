@@ -1,37 +1,27 @@
-// fetch("/app/script/json/data.json").then(function (resolve) {
-// 	var JsonData = resolve.json();
-// 	console.log(JsonData);
-// 	return JsonData;
-// });
-
-// // append from json
-
-// let test = data;
-// console.log(test);
-
-// let test = JSON.stringify("./json/data.json");
-// console.log(test);
-
-////////////////////////////////////////////////////////////////////////
 console.log(`Test`);
 ////////////////////////////////////////////////////////////////////////
-// function toggle(Butt1, Class1, Butt2, Class2) {
-// 	Butt1.classList.toggle(Class1);
-// 	Butt2.classList.toggle(Class2);
-// }
-// function reAdd(Butt1, Class1, Butt2, Class2) {
-// 	// Butt1 => remove , Butt2 => add
-// 	Butt1.classList.remove(Class1);
-// 	Butt2.classList.add(Class2);
-// }
+function toggle(Butt1, Class1, Butt2, Class2) {
+	Butt1.classList.toggle(Class1);
+	Butt2.classList.toggle(Class2);
+}
+function reAdd(Butt1, Class1, Butt2, Class2) {
+	// Butt1 => remove , Butt2 => add
+	Butt1.classList.remove(Class1);
+	Butt2.classList.add(Class2);
+}
 
 ////////////////////////////////////////////////////////////////////////
 // for the phone nav list function
-let phoneNavList = document.querySelector(".main-navigation ul");
 let navListButton = document.querySelector(".mobile-nav-toggle");
+let phoneNavList = document.querySelector(".main-navigation ul");
 let notNavListButton = [...document.querySelectorAll("body > *:not(header)")];
 let visible = phoneNavList.getAttribute("date-visible");
+let pageSections = [...document.querySelectorAll("main section")];
 
+let specialForScroll = "";
+// console.log(pageSections);
+
+// a function to open and close the phone navigation when clicking on the icon(Menu icon, [X]icon)
 navListButton.onclick = function () {
 	if (visible === "false") {
 		phoneNavList.setAttribute("date-visible", true);
@@ -51,6 +41,7 @@ navListButton.onclick = function () {
 		});
 	}
 };
+// a function to close the phone navigation when clicking Anything outside the navigation list
 notNavListButton.forEach((ele) => {
 	ele.onclick = function () {
 		if (visible === "true") {
@@ -65,45 +56,50 @@ notNavListButton.forEach((ele) => {
 	};
 });
 
-window.onscroll = function () {
-	if (visible === "true") {
-		phoneNavList.setAttribute("date-visible", false);
-		navListButton.setAttribute("aria-expanded", false);
-		visible = "false";
-		gsap.to('ul[date-visible="false"]', {
-			duration: 0.5,
-			xPercent: 0,
-		});
-	}
-};
-////////////////////////////////////////////////////////////////////////
-// for the nav list navigate function
+// a function To determine the active nav item
 
 let navEle = [...document.querySelectorAll(".main-navigation ul li a")];
-let special = "";
+let mainNavSpecialEle = "";
 
 navEle.forEach(function (ele) {
 	ele.onclick = function () {
-		special = ele;
+		mainNavSpecialEle = ele;
 		for (let i = 0; i < navEle.length; i++) {
-			if (navEle[i] == special) {
+			if (navEle[i] == mainNavSpecialEle) {
 				navEle[i].setAttribute("date-selected", true);
-			} else if (navEle[i] != special) {
+			} else if (navEle[i] != mainNavSpecialEle) {
 				navEle[i].setAttribute("date-selected", false);
 			}
 		}
 	};
 });
-
 ////////////////////////////////////////////////////////////////////////
 
-// scroll to top button
-// let scrollTop = document.querySelector(".scroll-Top");
-// scrollTop.onclick = function () {
-// 	window.scrollTo(0, 0);
-// };
+let destinationNav = [...document.querySelectorAll(".destination-nav button")];
+let destinationImage = [
+	...document.querySelectorAll(".destination-star picture"),
+];
+let destinationArticle = [
+	...document.querySelectorAll(".destination-text article"),
+];
 
-////////////////////////////////////////////////////////////////////////
+destinationNav.forEach(function (ele) {
+	let SpecialEle = "";
+	ele.onclick = function () {
+		SpecialEle = ele;
+		for (let i = 0; i < destinationNav.length; i++) {
+			if (destinationNav[i] == SpecialEle) {
+				destinationNav[i].setAttribute("date-selected", true);
+				destinationImage[i].setAttribute("aria-hidden", false);
+				destinationArticle[i].setAttribute("aria-hidden", false);
+			} else if (destinationNav[i] != SpecialEle) {
+				destinationNav[i].setAttribute("date-selected", false);
+				destinationImage[i].setAttribute("aria-hidden", true);
+				destinationArticle[i].setAttribute("aria-hidden", true);
+			}
+		}
+	};
+});
 
 ////////////////////////////////////////////////////////////////////////
 
@@ -150,19 +146,19 @@ navEle.forEach(function (ele) {
 //
 ////////////////////////////////////////////////////////////////////////
 
-// let navEle = [...document.querySelectorAll(".line")];
+// let lines = [...document.querySelectorAll(".line")];
 // let content = [...document.querySelectorAll(".artc")];
 // let special = "";
 
-// navEle.forEach(function (ele) {
+// lines.forEach(function (ele) {
 // 	ele.onclick = function () {
 // 		special = ele;
-// 		for (let i = 0; i < navEle.length; i++) {
-// 			if (navEle[i] == special) {
-// 				navEle[i].classList.add("act");
+// 		for (let i = 0; i < lines.length; i++) {
+// 			if (lines[i] == special) {
+// 				lines[i].classList.add("act");
 // 				content[i].classList.add("vis");
-// 			} else if (navEle[i] != special) {
-// 				navEle[i].classList.remove("act");
+// 			} else if (lines[i] != special) {
+// 				lines[i].classList.remove("act");
 // 				content[i].classList.remove("vis");
 // 			}
 // 		}
