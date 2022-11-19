@@ -388,7 +388,7 @@ picture {
   width: 100vw;
   height: 100vh;
   padding-top: var(--Header-hight);
-  background-image: url(../../../../assets/images/img/technology/background-technology-desktop.jpg);
+  background-image: url(../../assets/images/img/technology/background-technology-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -532,7 +532,7 @@ section[aria-labelledby=hero-section-title] {
   width: 100vw;
   height: 100vh;
   padding-top: var(--Header-hight);
-  background-image: url(../../../../assets/images/img/Home/background-home-desktop.jpg);
+  background-image: url(../../assets/images/img/Home/background-home-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -604,7 +604,7 @@ section[aria-labelledby=destination-section-title] {
   width: 100vw;
   height: 100vh;
   padding-top: var(--Header-hight);
-  background-image: url(../../../../assets/images/img/destination/background-destination-desktop.jpg);
+  background-image: url(../../assets/images/img/destination/background-destination-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -716,7 +716,7 @@ section[aria-labelledby=crow-section-title] {
   width: 100vw;
   height: 100vh;
   padding-top: var(--Header-hight);
-  background-image: url(../../../../assets/images/img/crew/background-crew-desktop.jpg);
+  background-image: url(../../assets/images/img/crew/background-crew-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -837,11 +837,11 @@ section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star pi
 @media screen and (max-width: 48em) {
   header .header-Container .mobile-nav-toggle[aria-expanded=false] {
     display: block;
-    background-image: url(../../../../assets/images/svg/icon-hamburger.svg);
+    background-image: url(../../assets/images/svg/icon-hamburger.svg);
   }
   header .header-Container .mobile-nav-toggle[aria-expanded=true] {
     display: block;
-    background-image: url(../../../../assets/images/svg/icon-close.svg);
+    background-image: url(../../assets/images/svg/icon-close.svg);
   }
   header .header-Container .main-navigation {
     width: auto;
@@ -908,7 +908,7 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
     display: none;
   }
   section[aria-labelledby=hero-section-title] {
-    background-image: url(../../../../assets/images/img/Home/background-home-tablet.jpg);
+    background-image: url(../../assets/images/img/Home/background-home-tablet.jpg);
     background-position: center;
   }
   section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text {
@@ -934,7 +934,7 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
     align-items: flex-end !important;
   }
   section[aria-labelledby=destination-section-title] {
-    background-image: url(../../../../assets/images/img/destination/background-destination-tablet.jpg);
+    background-image: url(../../assets/images/img/destination/background-destination-tablet.jpg);
   }
   section[aria-labelledby=destination-section-title] .Container .destination .destination-star {
     height: auto;
@@ -980,7 +980,7 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
     align-items: center !important;
   }
   section[aria-labelledby=crow-section-title] {
-    background-image: url(../../../../assets/images/img/crew/background-crew-tablet.jpg);
+    background-image: url(../../assets/images/img/crew/background-crew-tablet.jpg);
     background-position: center;
   }
   section[aria-labelledby=crow-section-title] .Container .crow .crow-text {
@@ -1024,7 +1024,7 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
 }
 @media screen and (max-width: 26.5625em) {
   section[aria-labelledby=hero-section-title] {
-    background-image: url(../../../../assets/images/img/Home/background-home-mobile.jpg);
+    background-image: url(../../assets/images/img/Home/background-home-mobile.jpg);
   }
   section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text {
     display: flex !important;
@@ -1040,7 +1040,7 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
     align-items: flex-end !important;
   }
   section[aria-labelledby=destination-section-title] {
-    background-image: url(../../../../assets/images/img/destination/background-destination-mobile.jpg);
+    background-image: url(../../assets/images/img/destination/background-destination-mobile.jpg);
   }
   section[aria-labelledby=destination-section-title] .Container .destination .destination-star {
     text-align: center;
@@ -1055,7 +1055,7 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
     align-items: center !important;
   }
   section[aria-labelledby=crow-section-title] {
-    background-image: url(../../../../assets/images/img/crew/background-crew-mobile.jpg);
+    background-image: url(../../assets/images/img/crew/background-crew-mobile.jpg);
   }
 }
 @supports (overflow-x: clip) {
