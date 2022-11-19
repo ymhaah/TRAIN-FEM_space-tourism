@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
--   [Solution URL]()
--   [Live Site URL]()
+-   [Solution URL](https://www.frontendmentor.io/solutions/spacetourism-ybbYDB29tK)
+-   [Live Site URL](https://ymhaah.github.io/space-tourism/)
 
 ## My process
 
