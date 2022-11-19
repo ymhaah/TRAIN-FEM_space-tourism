@@ -2,17 +2,11 @@
   --clr-blue-500: hsl(216, 98%, 52%);
   --clr-blue-400: hsl(209, 98%, 56%);
   --clr-blue-300: hsl(209, 91%, 65%);
-  --clr-red: hsl(0, 94%, 66%);
-  --clr-pink: hsl(330, 67%, 52%);
-  --clr-purple: hsl(261, 51%, 51%);
-  --clr-green: hsl(152, 69%, 31%);
-  --clr-yellow: hsl(45, 100%, 51%);
-  --clr-orange: hsl(27, 98%, 54%);
+  --clr-black: hsl(0, 0%, 0%);
   --clr-gray-700: hsl(230 35% 7%);
   --clr-gray-600: hsl(210, 11%, 15%);
   --clr-gray-300: hsl(210, 11%, 71%);
   --clr-gray-200: hsl(231 77% 90%);
-  --clr-black: hsl(0, 0%, 0%);
   --clr-white: hsl(0, 0%, 100%);
   --clr-alpha-gray-700: 230 35% 7%;
   --clr-alpha-gray-200: 31 77% 90%;
@@ -41,23 +35,23 @@
     color-scheme: dark;
   }
 }
-section[aria-labelledby=destination-section-title] .Container .destination, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info, section[aria-labelledby=hero-section-title] .Container .Hero, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button, header .header-Container, header .header-Container .Logo, header .header-Container .main-navigation, header .header-Container .main-navigation ul, header .header-Container .main-navigation ul li {
+section[aria-labelledby=crow-section-title] .Container .crow, section[aria-labelledby=crow-section-title] .Container .crow .crow-text, section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav, section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul, section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star, section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info, section[aria-labelledby=hero-section-title] .Container .Hero, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button, header .header-Container, header .header-Container .Logo, header .header-Container .main-navigation, header .header-Container .main-navigation ul, header .header-Container .main-navigation ul li, .opps .Container {
   display: flex;
 }
 
-section[aria-labelledby=destination-section-title] .Container .destination, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info, section[aria-labelledby=hero-section-title] .Container .Hero, header .header-Container, header .header-Container .main-navigation, header .header-Container .main-navigation ul, header .header-Container .main-navigation ul li {
+section[aria-labelledby=crow-section-title] .Container .crow, section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav, section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul, section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star, section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info, section[aria-labelledby=hero-section-title] .Container .Hero, header .header-Container, header .header-Container .main-navigation, header .header-Container .main-navigation ul, header .header-Container .main-navigation ul li {
   flex-direction: row;
 }
 
-section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button {
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text, section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button, .opps .Container {
   flex-direction: column;
 }
 
-section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button, header .header-Container .Logo, header .header-Container .main-navigation ul li {
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul, section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star, section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button, header .header-Container .Logo, header .header-Container .main-navigation ul li, .opps .Container {
   justify-content: center;
 }
 
-section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info {
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info {
   justify-content: flex-start;
 }
 
@@ -65,7 +59,7 @@ section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text, section
   justify-content: flex-end;
 }
 
-header .header-Container {
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text, header .header-Container {
   justify-content: space-between;
 }
 
@@ -73,15 +67,15 @@ header .header-Container .main-navigation ul {
   justify-content: space-evenly;
 }
 
-section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button, header .header-Container, header .header-Container .Logo, header .header-Container .main-navigation, header .header-Container .main-navigation ul, header .header-Container .main-navigation ul li {
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star picture[aria-hidden=false], section[aria-labelledby=destination-section-title] .Container .destination .destination-text, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav, section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] .info, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star .explore-Button, header .header-Container, header .header-Container .Logo, header .header-Container .main-navigation, header .header-Container .main-navigation ul, header .header-Container .main-navigation ul li, .opps .Container {
   align-items: center;
 }
 
-section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text {
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text, section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul, section[aria-labelledby=destination-section-title] .Container .destination .destination-star .star, section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul, section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Text {
   align-items: flex-start;
 }
 
-section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star {
+section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star, section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=false], section[aria-labelledby=hero-section-title] .Container .Hero .Hero-Star {
   align-items: flex-end;
 }
 
@@ -334,7 +328,7 @@ picture {
   overflow: hidden;
   cursor: pointer;
   text-decoration: none;
-  padding: max(0.5em, 0.5rem) 0;
+  padding: max(0.5em, 0.5rem) max(1.5em, 1.5rem);
   font-size: var(--fs-300);
   line-height: 1.5;
   letter-spacing: 0.16875rem;
@@ -342,7 +336,8 @@ picture {
   font-weight: 400;
   background-color: transparent;
   color: var(--txt-clr);
-  border: 0;
+  border: 1px solid hsl(var(--clr-alpha-white)/0.5);
+  border-radius: 5px;
   box-shadow: 0 0 0 -0.4em var(--bg-clr), 0 0 0 -0.6em hsl(216deg, 98%, 52%);
   transition: box-shadow 400ms cubic-bezier(0.66, -0.2, 0.27, 1.15);
 }
@@ -364,50 +359,15 @@ picture {
   background-color: var(--txt-clr);
 }
 
-.inputFiled {
-  min-height: 3.25rem;
-  max-height: 3em;
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-  max-width: min(100%, 90vw);
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  text-align: start;
-  text-transform: capitalize;
-  white-space: nowrap;
-  overflow: hidden;
-  text-decoration: none;
-  padding: max(0.5em, 0.5rem) max(1.5em, 1.5rem);
-  font-size: var(--fs-s);
-  font-weight: 400;
-  font-family: var(--ff-sans-cond);
-  background-color: transparent;
-  color: var(--txt-clr);
-  border: 2px solid var(--secondary-clr);
-  outline: none;
-  border-radius: 8px;
-  transition: box-shadow 400ms cubic-bezier(0.66, -0.2, 0.27, 1.15);
-}
-
-.Button:focus-visible,
-.inputFiled:focus-visible {
+.Button:focus-visible {
   box-shadow: 0 0 0 0.3em var(--bg-clr), 0 0 0 0.5em #0d6dfd;
 }
 
-.Button:focus,
-.inputFiled:focus {
+.Button:focus {
   outline: none;
 }
 
-.Button:not(:last-child),
-.inputFiled:not(:last-child) {
+.Button:not(:last-child) {
   margin: 0 1rem 0 0;
 }
 
@@ -424,8 +384,33 @@ picture {
   border: 0 !important;
 }
 
+.opps {
+  width: 100vw;
+  height: 100vh;
+  padding-top: var(--Header-hight);
+  background-image: url(../../../../assets/images/img/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.opps .Container {
+  text-align: center;
+}
+.opps .Container h1 {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-l);
+  color: var(--txt-clr);
+  font-family: var(--ff-sans-cond);
+  line-height: 1.2;
+}
+.opps .Container .Button {
+  font-family: var(--ff-sans-cond);
+  line-height: 1.2;
+  background-color: var(--clr-gray-600);
+}
+
 :root {
-  --Header-hight: calc(10vh + 3rem);
+  --Header-hight: calc(8vh + 3rem);
   --header-Container-width: 92%;
   --Header-Nav-width: 90%;
   --Header-icon-hight: 5em;
@@ -679,6 +664,11 @@ section[aria-labelledby=destination-section-title] .Container .destination .dest
   gap: 1.5rem;
   font-family: var(--ff-sans-cond);
 }
+section[aria-labelledby=destination-section-title] .Container .destination .destination-text .destination-nav ul li .Button {
+  border: 0;
+  border-radius: 0;
+  padding: max(0.5em, 0.5rem) 0;
+}
 section[aria-labelledby=destination-section-title] .Container .destination .destination-text article[aria-hidden=false] h3 {
   font-size: var(--fs-900);
   font-weight: var(--fw-l);
@@ -720,6 +710,128 @@ section[aria-labelledby=destination-section-title] .Container .destination .dest
 }
 section[aria-labelledby=destination-section-title] .Container .destination .destination-text article#europa-section h3 {
   font-size: var(--fs-800);
+}
+
+section[aria-labelledby=crow-section-title] {
+  width: 100vw;
+  height: 100vh;
+  padding-top: var(--Header-hight);
+  background-image: url(../../../../assets/images/img/crew/background-crew-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section[aria-labelledby=crow-section-title] .Container #crow-section-title {
+  max-width: 50%;
+  margin: 0;
+  font-size: var(--fs-400);
+  font-weight: var(--fw-m);
+  font-family: var(--ff-sans-cond);
+  letter-spacing: 0.16875rem;
+  text-transform: uppercase;
+}
+section[aria-labelledby=crow-section-title] .Container #crow-section-title span {
+  margin-right: clamp(0.3125rem, 0.2382425743rem + 0.2475247525vw, 0.625rem);
+  color: hsl(var(--clr-alpha-gray-200)/0.5);
+}
+section[aria-labelledby=crow-section-title] .Container .crow {
+  width: 100%;
+  height: 100%;
+}
+section[aria-labelledby=crow-section-title] .Container .crow > * {
+  width: 50%;
+  height: 100%;
+}
+@media screen and (max-width: 769px) {
+  section[aria-labelledby=crow-section-title] .Container .crow {
+    flex-direction: column;
+  }
+  section[aria-labelledby=crow-section-title] .Container .crow > * {
+    width: 100%;
+    height: 50%;
+  }
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text {
+  padding: 15% 0 15% 0;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text article[aria-hidden=false] h3 {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-l);
+  color: var(--txt-clr);
+  font-family: var(--ff-sans-cond);
+  line-height: 1.2;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 0 1rem 0;
+  font-family: var(--ff-serif);
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text article[aria-hidden=false] h3 span {
+  color: hsl(var(--clr-alpha-gray-200)/0.5);
+  font-size: var(--fs-500);
+  display: block;
+  line-height: 1.2;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text article[aria-hidden=false] > p {
+  font-size: var(--fs-300);
+  margin: 0;
+  line-height: var(--fs-600);
+  color: hsl(var(--clr-alpha-gray-200)/0.8);
+  font-family: var(--ff-sans-normal);
+  max-width: 50ch;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text article[aria-hidden=true] {
+  display: none;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text article#mission-section h3 {
+  font-size: var(--fs-600);
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav {
+  width: 100%;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul {
+  gap: 1rem;
+  font-family: var(--ff-sans-cond);
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul li {
+  --button-size: 0.75rem;
+  width: var(--button-size);
+  height: var(--button-size);
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul li button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: hsl(var(--clr-alpha-white)/0.3);
+  border: none;
+  cursor: pointer;
+  color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul li Button:focus-visible {
+  box-shadow: 0 0 0 0.3em var(--bg-clr), 0 0 0 0.5em #0d6dfd;
+  background-color: hsl(var(--clr-alpha-white)/0.5);
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul li Button:hover[date-selected=false] {
+  background-color: hsl(var(--clr-alpha-white)/0.5);
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav ul li button[date-selected=true] {
+  background-color: var(--txt-clr);
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star {
+  height: 100%;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=false] {
+  width: 100%;
+  height: 100%;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=false] img {
+  height: 85%;
+}
+section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=true] {
+  display: none;
 }
 
 @media screen and (max-width: 48em) {
@@ -867,6 +979,39 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
     justify-content: center !important;
     align-items: center !important;
   }
+  section[aria-labelledby=crow-section-title] {
+    background-image: url(../../../../assets/images/img/crew/background-crew-tablet.jpg);
+    background-position: center;
+  }
+  section[aria-labelledby=crow-section-title] .Container .crow .crow-text {
+    height: auto;
+    padding: 5% 0 0 0;
+  }
+  section[aria-labelledby=crow-section-title] .Container .crow .crow-text article[aria-hidden=false] {
+    text-align: center;
+  }
+  section[aria-labelledby=crow-section-title] .Container .crow .crow-text article[aria-hidden=false] > p {
+    max-width: 100%;
+  }
+  section[aria-labelledby=crow-section-title] .Container .crow .crow-text .crow-nav {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  section[aria-labelledby=crow-section-title] .Container .crow .crow-hero {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  section[aria-labelledby=crow-section-title] .Container .crow .crow-hero .star picture[aria-hidden=false] img {
+    height: 95%;
+  }
+  .opps .Container h1 {
+    font-size: var(--fs-500);
+  }
   .Button:not(:last-child),
 .inputFiled:not(:last-child) {
     margin: 0 0 1rem 0;
@@ -908,6 +1053,9 @@ header .header-Container .main-navigation ul li a[date-selected=true]::after {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+  }
+  section[aria-labelledby=crow-section-title] {
+    background-image: url(../../../../assets/images/img/crew/background-crew-mobile.jpg);
   }
 }
 @supports (overflow-x: clip) {

@@ -7,7 +7,7 @@
 		<meta name="author" content="Yousef Hafnawi" />
 		<meta name="color-scheme" content="light" />
 		<link rel="icon" type="image/png" href="./assets/images/svg/logo.svg" />
-		<title>Space Tourism</title>
+		<title>Space Tourism\Crow</title>
 		<!-- ################ scripts ################ -->
 		<!-- ################ gsap ################ -->
 		<script
@@ -18,29 +18,6 @@
 			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"
 			defer
 		></script>
-		<!-- ################ locomotive ################ -->
-		<!-- <script
-			src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"
-			defer
-		></script> -->
-		<!-- ################ bootstrap ################ -->
-		<!-- <script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-			crossorigin="anonymous"
-		></script> -->
-		<!-- ################ style ################ -->
-		<!-- ################ bootstrap ################ -->
-		<!-- <link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-			crossorigin="anonymous"
-		/> -->
-		<!-- <link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-		/> -->
 		<!-- ################ fonts (Bellefair) ################ -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -119,7 +96,165 @@
 			<div class="bg-blur"></div>
 		</header>
 		<!-- header section ends -->
-		<main id="home"></main>
+		<main id="home">
+			<section
+				aria-labelledby="crow-section-title"
+				id="destination-section"
+			>
+				<div class="Container">
+					<h1 id="crow-section-title">
+						<span>02</span> MEET YOUR CROW
+					</h1>
+					<div class="crow">
+						<div class="crow-text">
+							<article id="commander-section" aria-hidden="false">
+								<h3><span>Commander</span>Douglas Hurley</h3>
+								<p>
+									Douglas Gerald Hurley is an American
+									engineer, former Marine Corps pilot and
+									former NASA astronaut. He launched into
+									space for the third time as commander of
+									Crew Dragon Demo-2.
+								</p>
+							</article>
+							<article id="mission-section" aria-hidden="true">
+								<h3>
+									<span>Mission Specialist</span>Mark
+									Shuttleworth
+								</h3>
+								<p>
+									Mark Richard Shuttleworth is the founder and
+									CEO of Canonical, the company behind the
+									Linux-based Ubuntu operating system.
+									Shuttleworth became the first South African
+									to travel to space as a space tourist.
+								</p>
+							</article>
+							<article id="pilot-section" aria-hidden="true">
+								<h3><span>Pilot</span>Victor Glover</h3>
+								<p>
+									Pilot on the first operational flight of the
+									SpaceX Crew Dragon to the International
+									Space Station. Glover is a commander in the
+									U.S. Navy where he pilots an F/A-18.He was a
+									crew member of Expedition 64, and served as
+									a station systems flight engineer.
+								</p>
+							</article>
+							<article id="flight-section" aria-hidden="true">
+								<h3>
+									<span>Flight Engineer</span>Anousheh Ansari
+								</h3>
+								<p>
+									Anousheh Ansari is an Iranian American
+									engineer and co-founder of Prodea Systems.
+									Ansari was the fourth self-funded space
+									tourist, the first self-funded woman to fly
+									to the ISS, and the first Iranian in space.
+								</p>
+							</article>
+
+							<nav class="crow-nav">
+								<ul>
+									<li>
+										<button
+											class="Flip"
+											type="button"
+											date-selected="true"
+											aria-controls="commander-section"
+										>
+											commander-section
+										</button>
+									</li>
+									<li>
+										<button
+											class="Flip"
+											type="button"
+											date-selected="false"
+											aria-controls="mission-section"
+										>
+											mission-section
+										</button>
+									</li>
+									<li>
+										<button
+											class="Flip"
+											type="button"
+											date-selected="false"
+											aria-controls="pilot-section"
+										>
+											pilot-section
+										</button>
+									</li>
+									<li>
+										<button
+											class="Flip"
+											type="button"
+											date-selected="false"
+											aria-controls="flight-section"
+										>
+											flight-section
+										</button>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="crow-hero">
+							<div class="star">
+								<picture class="" aria-hidden="false">
+									<source
+										srcset="
+											./assets/images/img/crew/image-douglas-hurley.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/crew/image-douglas-hurley.png"
+										alt="the moon"
+									/>
+								</picture>
+								<picture class="hero-mars" aria-hidden="true">
+									<source
+										srcset="
+											./assets/images/img/crew/image-mark-shuttleworth.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/crew/image-mark-shuttleworth.png"
+										alt="mars"
+									/>
+								</picture>
+								<picture class="hero-europa" aria-hidden="true">
+									<source
+										srcset="
+											./assets/images/img/crew/image-victor-glover.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/crew/image-victor-glover.png"
+										alt="europa"
+									/>
+								</picture>
+								<picture class="hero-titan" aria-hidden="true">
+									<source
+										srcset="
+											./assets/images/img/crew/image-anousheh-ansari.webp
+										"
+										type="image/webp"
+									/>
+									<img
+										src="./assets/images/img/crew/image-anousheh-ansari.png"
+										alt="titan"
+									/>
+								</picture>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 		<!-- my scripts -->
 		<script type="module" src="./app/script/main.js"></script>
 	</body>
