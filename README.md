@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 -   [Solution URL](https://www.frontendmentor.io/solutions/spacetourism-ybbYDB29tK)
--   [Live Site URL](https://ymhaah.github.io/space-tourism/)
+-   [Live Site URL](https://ymhaah.github.io/TRAIN-FEM_space-tourism/)
 
 ## My process
 
