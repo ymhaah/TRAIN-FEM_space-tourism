@@ -1,4 +1,5 @@
 # Frontend Mentor - Space tourism website solution
+> Start at: Aug 26, 2022
 
 This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). FrontendMentor is a platform where developers can improve their front-end skills by building real projects and receiving feedback from the community.
 
