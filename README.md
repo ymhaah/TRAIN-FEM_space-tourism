@@ -1,6 +1,6 @@
 # Frontend Mentor - Space tourism website solution
 
-This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3).
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). FrontendMentor is a platform where developers can improve their front-end skills by building real projects and receiving feedback from the community.
 
 ## Table of contents
 
@@ -53,10 +53,10 @@ Users should be able to:
 
 ### What I learned
 
-This project was created with the main goal is to focus on accessibility.
+This project was created with the main goal of focusing on accessibility.
 I have implemented many new principles in this project such as:
 
--   the Hidden Link that skip the navigation menu
+-   the Hidden Link that skips the navigation menu
 
 ```html
 <a href="#home" title="click Enter to skip navigation menu"
@@ -64,7 +64,7 @@ I have implemented many new principles in this project such as:
 >
 ```
 
--   using aria-controls & aria-expanded whit the navigation menu button
+-   using aria-controls & aria-expanded with the navigation menu button
 
 ```html
 <button
